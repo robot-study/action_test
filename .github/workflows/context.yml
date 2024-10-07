@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latesst
     steps:
-    - name: "context"
+    - name: context
       env:
         COMMT_ID: ${{ github.sha }}
       run: echo "Commit id => $COMMIT_ID"
